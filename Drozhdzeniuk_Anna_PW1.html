@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html meta charset="UTF-8">
+<head>
+<style>
+    header {
+        background-color:rgb(182, 199, 252);
+        padding: 1px;
+        text-align: center;
+    }
+    nav {
+        float: left;
+        width: 20%;
+        text-align: left;
+        background-color: rgba(208, 208, 208, 0.953);
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    main {
+        margin-left: 20%;
+        padding: 10px;
+        background-color: aliceblue;
+    }
+    footer {
+        background-color:rgb(221, 228, 251);
+        padding: 1px;
+    }
+</style>    
+
+<title> Web design-Practical work 1</title>
+<header>
+    <h1>Drozhdzeniuk Anna 354</h1>
+</header>
+<nav> 
+    <strong><p>questions list</p></strong>
+    <p><a href="#html-first">When did HTML5 become a standard? What were the main reasons for developing the new standard?</a></p>
+    <p><a href="#html-second">What is the difference between W3C HTML5 and WHATWG HTML Living Standard?</a></p>
+    <p><a href="#html-third">What is the minimal HTML page code?</a></p>
+    <p><a href="#html-fourth">Comment on semantic and presentational markup. Why presentational markup is considered deprecated now?</a></p>
+    <p><a href="#html-fifth">How you can check browser support for particular tag or attribute?</a></p>
+    <p><a href="#html-sixth">What are the audio and video formats, officially supported by HTML standard? What happens if you use other format?</a></p>
+</nav>
+
+<main>
+<body>
+    <dl>
+    <dt id="html-first"></dt>
+    <strong>a. When did HTML5 become a standard? What were the main reasons for developing the new standard?</strong>
+    <p>HTML5 became a standard on October 28, 2014. The main reasons for developing a new standard were to address the limitations of previous HTML versions, support modern web technologies, and improve interoperability across different browsers and devices. HTML5 introduced new features, such as native support for multimedia elements (audio and video), canvas for graphics rendering, improved form controls, and better support for mobile devices.</p>
+    <dt id="html-second"></dt>
+    <strong>b. What is the difference between W3C HTML5 and WHATWG HTML Living Standard?</strong>
+    <p>The difference between W3C HTML5 and WHATWG HTML Living Standard lies in their development processes and maintenance. W3C (World Wide Web Consortium) is a standards organization responsible for maintaining and updating the stable, finalized specification of HTML5. W3C HTML5 represents a specific version of HTML with a clear specification.On the other hand, WHATWG (Web Hypertext Application Technology Working Group) maintains the HTML Living Standard, which is an evolving and continuously updated version of HTML. The WHATWG HTML Living Standard is more focused on practical implementation and reflects ongoing work and changes in web technologies. It is designed to be constantly updated in response to new developments and innovations.</p>
+    <dt id="html-third"></dt>
+    <strong>c.	What is the minimal HTML page code?</strong>
+    <p>The minimal HTML page code consists of the following elements: </p>
+    <ol><li> &lt!DOCTYPE html&gt: Declaration of the HTML document type.</li>
+       <li>&lthtml&gt: The root element of the HTML document.</li>
+       <li>&lthead&gt: Contains meta-information about the document.</li>
+        <li>&lttitle&gt: Sets the title of the page.</li>
+        <li>&ltbody&gt: The main content area of the HTML document.</li></ol>
+        <body>These basic elements provide the structure and content for a simple HTML page. </body>
+    <dt id="html-fourth"></dt>
+    <p></p><strong>d.	Comment on semantic and presentational markup. Why presentational markup is considered deprecated now?</strong>
+    <p>Presentational markup is deprecated because it combines content and presentation in the HTML code, which can lead to accessibility problems, code maintenance challenges, and inconsistencies across platforms. Modern web development encourages the use of semantic markup to provide clear meaning and structure to content. Visual styling and presentation are handled separately using CSS, allowing for better accessibility, easier maintenance, and improved compatibility.</p>
+    <dt id="html-fifth"></dt>
+    <strong>e.	How you can check browser support for particular tag or attribute?</strong>
+    <p>To quickly check browser support for a specific HTML tag or attribute, you can use online resources like "Can I Use" or refer to documentation websites like MDN Web Docs and W3Schools. These sources provide information on browser compatibility, detailing which browsers support particular HTML elements and attributes. Additionally, some web development tools, such as Chrome DevTools and Firefox Developer Tools, offer built-in features that display browser compatibility information. By utilizing these resources, you can efficiently determine if a tag or attribute is supported by the browsers you are targeting for your project.</p>
+    <dt id="html-sixth"></dt>
+    <strong>f.	What are the audio and video formats, officially supported by HTML standard? What happens if you use other format?</strong>
+    <p>The HTML standard officially supports the following audio formats: MP3, WAV, and OGG. For video, the supported formats are MP4 and WebM. If you use a different audio or video format that is not supported, the browser may be unable to play the media file. In such cases, the browser will typically provide alternative content or display an error message indicating that the media format is not supported. To ensure compatibility and proper playback across different browsers and devices, it is important to use the audio and video formats officially supported by the HTML standard</p>
+</dl>
+<video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+  </video>
+  <audio controls autoplay muted>
+    <source src="" type="audio/ogg">
+    <source src="" type="audio/mpeg">
+    </audio>
+<footer>As for me, in this was everything was absolutely clear. The most difficult part was understand how I should put video and audio in web page. I learn informatiom about HTML and how to write a simple code in HTML.
+<p><img src="images.png"></p>
+</footer>
+</main>
+</body>
+</html>
