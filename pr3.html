@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 3</title>
+    <style>
+        .container {
+            width: 600px;
+            margin: 0 auto;
+        }
+        .image {
+            float: left;
+            margin-right: 20px;
+            height: auto;
+        }
+        .bordered-section {
+            border: 2px solid #000;
+            padding: 10px;
+        }
+        .dotted-border {
+            border-style: dotted;
+        }
+        .dashed-border {
+            border-style: dashed;
+        }
+        .solid-border {
+            border-style: solid;
+        }
+        .double-border {
+            border-style: double;
+        }
+        .mixed-border {
+            border-style: dotted dashed solid double;
+        }
+        p.p1 {
+            background-color: rgb(172, 234, 255);
+        }
+        p.p2 {
+            background: linear-gradient(to right, #ff00003b, #0000ff25);
+        }
+        p.p3 {
+            background: repeating-linear-gradient(45deg, #fb00ff41, #6699d851);
+        }
+        p.p4 {
+            background: url('sun.jpg') no-repeat fixed;
+            background-size: cover;
+            color: aliceblue;
+        }
+        p.p5 {
+            background: url('nature.jpg') 100% 100% no-repeat fixed, url('sky.jpg') no-repeat fixed;
+            background-size: 700px, cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="bordered-section dotted-border">
+        <h3>The ways to open developer console in Mozilla Firefox and Safari</h3>  </div>
+        <p>To open the developer console in <b>Firefox</b>, click on the Firefox Menu in the upper-right-hand corner of the browser and select More Tools > Browser Console.</p>
+        <p>To open the developer console in <b>Safari</b>, firstly select Safari Preferences (Safari Menu > Preferences), select Advanced, and check the "Show Develop menu in menu bar" box. The Safari developer tools are now available from the Develop menu in the menu bar.</p>
+
+    <div class="bordered-section dashed-border">
+        <h3>Relative or absolute links</h3>  </div>
+        <p>Absolute links are preferred for external resources, sharing specific URLs, and when working with content management systems. Relative links are generally more suitable for internal page navigation, providing flexibility during development, and ensuring easier maintenance and portability. Consider the specific use case and requirements of your website when deciding between absolute and relative links.</p>
+
+    <div class="bordered-section solid-border">
+        <h3>Image formats used in web development</h3>  </div>
+        <p>JPG (JPEG) is commonly used for photographs and complex images, GIF is suitable for animations and simple graphics, PNG offers a balance between quality and file size with transparency support, WEBP provides better compression and smaller file sizes, and SVG is used for scalable vector graphics. The choice depends on factors like image content, quality, file size, and browser compatibility.</p>
+
+
+    <div class="bordered-section double-border">
+        <h3>Screenshot</h3>  </div>
+        <p></p>
+        <div class="bordered-section mixed-border">
+            <img src="css-tricks.com_.png" width="1400" alt="screenshot" />
+        </div>
+
+    <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in est eu odio pellentesque rutrum. Nunc mattis, eros vitae posuere tempor, turpis nisi vestibulum nibh, ut volutpat leo diam ac lectus. Integer finibus, odio nec vestibulum bibendum, dui nunc ultrices turpis, id consequat mi tellus vitae purus. Quisque quis arcu nec turpis facilisis vulputate. Suspendisse et mollis mauris.</p>
+    <p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in est eu odio pellentesque rutrum. Nunc mattis, eros vitae posuere tempor, turpis nisi vestibulum nibh, ut volutpat leo diam ac lectus. Integer finibus, odio nec vestibulum bibendum, dui nunc ultrices turpis, id consequat mi tellus vitae purus. Quisque quis arcu nec turpis facilisis vulputate. Suspendisse et mollis mauris.Suspendisse et mollis mauris. Sed auctor, ligula quis gravida imperdiet, ligula dui blandit dolor, vitae fermentum ex lacus vitae ligula. Curabitur eget felis vitae lorem sodales dapibus. Sed ipsum purus, interdum id molestie in, efficitur quis elit. Nulla facilisi. Maecenas in velit sed ligula sollicitudin interdum.</p>
+
+    <p class="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in est eu odio pellentesque rutrum. Nunc mattis, eros vitae posuere tempor, turpis nisi vestibulum nibh, ut volutpat leo diam ac lectus. Integer finibus, odio nec vestibulum bibendum, dui nunc ultrices turpis, id consequat mi tellus vitae purus. Quisque quis arcu nec turpis facilisis vulputate. Suspendisse et mollis mauris.Vivamus ut placerat tortor. Aliquam erat volutpat. Donec viverra nisi sed nisi maximus condimentum. Etiam erat felis, consequat a nisl id, iaculis aliquam turpis. Morbi auctor semper sagittis. Vivamus gravida, erat vitae elementum vehicula, leo quam gravida massa, in laoreet sem lorem nec dolor. Sed id dui in nulla dictum vulputate. Phasellus tempor ullamcorper ligula, at posuere nisl pulvinar non. Sed aliquet rutrum turpis, eu feugiat justo pulvinar vel.</p>
+
+    <p class="p4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in est eu odio pellentesque rutrum. Nunc mattis, eros vitae posuere tempor, turpis nisi vestibulum nibh, ut volutpat leo diam ac lectus. Integer finibus, odio nec vestibulum bibendum, dui nunc ultrices turpis, id consequat mi tellus vitae purus. Quisque quis arcu nec turpis facilisis vulputate. Suspendisse et mollis mauris.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, justo sit amet efficitur lacinia, tortor odio tempor nisl, sed feugiat neque orci nec massa. Aliquam erat volutpat. Sed cursus, turpis id consectetur aliquet, ligula eros consequat ipsum, id lacinia dolor mauris non magna. Sed quis mi sit amet mauris molestie feugiat. Nullam vitae ex ligula. Aenean et sollicitudin erat. Donec eget scelerisque est, vel ornare velit. Suspendisse consectetur diam eu elit efficitur, eu ultricies nisl tincidunt. Maecenas rhoncus, neque eu pretium congue, sapien sem cursus dolor, non ultricies turpis metus sed quam. Integer porttitor, urna ut accumsan aliquet, odio felis tristique justo, vel eleifend ex turpis et mauris. Fusce vel purus vitae mauris venenatis tristique. Nunc congue sollicitudin ante, sed eleifend neque aliquam at. Nullam vitae sollicitudin est. Sed aliquam tellus et ligula venenatis, in varius lectus aliquet.</p>
+    <p class="p5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in est eu odio pellentesque rutrum. Nunc mattis, eros vitae posuere tempor, turpis nisi vestibulum nibh, ut volutpat leo diam ac lectus. Integer finibus, odio nec vestibulum bibendum, dui nunc ultrices turpis, id consequat mi tellus vitae purus. Quisque quis arcu nec turpis facilisis vulputate. Suspendisse et mollis mauris.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, justo sit amet efficitur lacinia, tortor odio tempor nisl, sed feugiat neque orci nec massa. Aliquam erat volutpat. Sed cursus, turpis id consectetur aliquet, ligula eros consequat ipsum, id lacinia dolor mauris non magna. Sed quis mi sit amet mauris molestie feugiat. Nullam vitae ex ligula. Aenean et sollicitudin erat. Donec eget scelerisque est, vel ornare velit. Suspendisse consectetur diam eu elit efficitur, eu ultricies nisl tincidunt. Maecenas rhoncus, neque eu pretium congue, sapien sem cursus dolor, non ultricies turpis metus sed quam. Integer porttitor, urna ut accumsan aliquet, odio felis tristique justo, vel eleifend ex turpis et mauris. Fusce vel purus vitae mauris venenatis tristique. Nunc congue sollicitudin ante, sed eleifend neque aliquam at. Nullam vitae sollicitudin est. Sed aliquam tellus et ligula venenatis, in varius lectus aliquet.</p>
+</body>
+</html>
