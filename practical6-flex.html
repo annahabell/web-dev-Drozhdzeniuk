@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practical 6-2</title>
+  <style>
+.login-form {
+padding: 20px;
+width: 30%;
+float: left;
+}
+login-form label {
+display: block;
+margin-bottom: 10px;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+width: 300px;
+padding: 8px;
+margin-bottom: 60px;
+}
+.login-form button {
+padding: 8px 16px;
+background-color: #000000;
+color: #fff;
+border: none;
+cursor: pointer;
+}
+.login-form button:hover {
+background-color: #333333;
+}
+    .container2 {
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
+   background-color: #00000042;
+    
+    }
+    .container {
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .top-news {
+      margin-bottom: 20px;
+    }
+    .top-news img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .top-news h4 {
+      margin: 0;
+    }
+    .top-news p {
+      margin-bottom: 10px;
+    }
+    .top-news button {
+      padding: 8px 16px;
+      background-color: #000000;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .top-news button:hover {
+      background-color: #333333;
+    }
+    .news-section {
+      display: grid;
+      grid-template-columns:1fr;
+      grid-gap: 20px;
+      width: 70%;
+      grid-auto-flow: row;
+      float: left;
+      padding-right: 20px;
+    }
+    .news-preview {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    .news-preview img {
+      width: 400px;
+      margin-bottom: 10px;
+      float: left;
+    }
+    .news-preview h3 {
+      margin: 0;
+    }
+    .news-preview p {
+      margin-bottom: 10px;
+    }
+    .news-preview button {
+    padding: 8px 16px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    }
+    .news-preview button:hover {
+      background-color: #333333;
+    }
+    .nav-menu {
+      list-style-type: none;
+      padding: 0;
+    }
+    .nav-menu li {
+      margin-bottom: 10px;
+    }
+    .nav-menu a {
+      text-decoration: none;
+      color: #000000;
+    }
+    .color {
+        padding-top: 10px;
+        background-color: #3333336a;
+        padding-bottom: 10px;
+    }
+    .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-news">
+      <img src="car.png" alt="porsche photo">
+      <div class="color">
+      <h4>911 GT3 RS</h4>
+      <p>Athletes know that achieving the best results requires more than just perfect conditions and luck.
+        The decisive factor is the unconditional desire to become faster and stronger with each training session.
+       Evaluate everything critically, especially your actions.</p>
+      <button>Read more</button></div>
+    </div>
+    </div>
+<h3>News</h3>
+<hr/>
+    <div class="news-section">
+      <div class="news-preview">
+        <img src="1.jpg" alt="porsche photo">
+        <div class="text">
+        <h3>Two market premieres for Porsche at Auto China 2024</h3>
+        <p>The sports car manufacturer Porsche is firmly underscoring its ‘In China, 
+            for China’ strategy at the Auto China 2024 show in Beijing with a special China version of 
+            the new-generation Taycan, the market premiere of the all-electric Macan...</p>
+        <button>Read more</button></div>
+      </div>
+      <div class="news-preview">
+        <img src="2.jpeg" alt="porsche photo">
+        <div class="text">
+        <h3>Streamlining: the standard-setting new Macan</h3>
+        <p>Whether aerodynamics, connectivity, range, or driving dynamics, the innovations 
+            in the new Macan are setting benchmarks. At the same time, Porsche is working toward a strategic...</p>
+        <button>Read more</button></div>
+      </div>
+      <div class="news-preview">
+        <img src="3.jpg" alt="porsche photo">
+        <div class="text">
+        <h3>On a road trip to Seville in the new Taycan</h3>
+        <p>Aiming for the sweet spot between speed, consumption and charging infrastructure, Mayk Wienkötter, 
+        Porsche’s spokesperson for the Taycan and electromobility, took a trip from Stuttgart to Seville...</p>
+        <button>Read more</button></div>
+      </div></div>
+  
+  <div class="container2">
+    <div>
+        <h2>Login</h2>
+        <form class="login-form" action="#" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>  
+  </div>
+</body>
+</html>

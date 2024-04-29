@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 6</title>
+    <style>
+.news-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-preview {
+  flex: 1;
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+.news-preview img {
+  width: 100%;
+  height: auto;
+}
+
+.news-preview h2 {
+  margin-top: 10px;
+}
+
+.news-preview .meta-info {
+  color: gray;
+  font-size: 14px;
+}
+
+.news-preview .excerpt {
+  margin-top: 10px;
+}
+
+.news-preview .read-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: underline;
+}
+.header {
+  display: flex;
+
+    }
+.li {
+    float: left;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 19px 16px; 
+  text-decoration: none;
+}
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+li a:hover {
+  background-color: #a6a6a6;
+}
+.left {
+    text-align: right ;
+}
+.image-container {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+color: rgba(0, 0, 0, 0.796);
+}
+.image-container2 {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+color: rgba(0, 0, 0, 0.796);
+}
+.image {
+max-width: 600px;
+float: left;
+margin-right:  20px;
+margin-top: 10px;
+}
+.left {
+    text-align: left;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+       <img src="logo.jpeg" width="150px" alt="porshe logo">
+        <ul class="ul">
+            <li class="li"><a href="#Home">Home</a></li>
+            <li class="li"><a href="#Home">Models</a></li>
+            <li class="li"><a href="News">News</a></li>
+            <li class="li"><a href="#Home">About us</a></li>
+        </ul>
+    </header>
+    <img src="home.jpeg" class="image" alt="porshe in England">
+    <h2 class="left" id="#Home">Porshe in England</h2>
+    <p class="image-container">Porsche cars are available in England through authorized dealerships. 
+        Porsche has a strong presence in the United Kingdom, with several dealerships located across the country. 
+        These dealerships offer a range of Porsche models for sale, including sports cars, SUVs, and electric vehicles. 
+        Customers in England can visit their nearest Porsche dealership or explore online platforms to find and purchase a Porsche car.
+        Additionally, Porsche provides after-sales services, maintenance, and support for their vehicles through their authorized service 
+        centers in England.Porsche dealerships in England provide a comprehensive buying experience for customers. They have knowledgeable 
+        sales representatives who can assist in selecting the right Porsche model based on individual preferences and requirements.
+        Customers can explore various options, customizations, and features available for each Porsche model.
+        Furthermore, Porsche offers after-sales services and maintenance support through their authorized service centers.
+        These service centers are equipped with specialized tools and trained technicians who ensure that Porsche vehicles 
+        are properly serviced and maintained to the highest standards.</p>
+    <h3 id="News">News</h3>
+    <section class="news-section">
+        <div class="news-preview">
+          <img src="1.jpg" alt="porshe car">
+          <h2>Two market premieres for Porsche at Auto China 2024</h2>
+          <p class="meta-info">25/04/2024</p>
+          <p class="excerpt">The sports car manufacturer Porsche is firmly underscoring its ‘In China, 
+            for China’ strategy at the Auto China 2024 show in Beijing with a special China version of 
+            the new-generation Taycan, the market premiere of the all-electric Macan...</p>
+        <a href="https://newsroom.porsche.com/en/2024/products/porsche-auto-china-two-market-premieres-35998.html" class="read-more">Read More</a>
+        </div>
+        <div class="news-preview">
+          <img src="2.jpeg" alt="porshe car">
+          <h2>Streamlining: the standard-setting new Macan</h2>
+          <p class="meta-info">24/04/2024</p>
+          <p class="excerpt">Whether aerodynamics, connectivity, range, or driving dynamics, the innovations 
+            in the new Macan are setting benchmarks. At the same time, Porsche is working toward a strategic...</p>
+          <a href="https://newsroom.porsche.com/en/2024/products/porsche-streamlining-macan-turbo-35945.html" class="read-more">Read More</a>
+        </div>
+        <div class="news-preview">
+          <img src="3.jpg" alt="porshe car">
+          <h2>On a road trip to Seville in the new Taycan</h2>
+          <p class="meta-info">03/04/2024</p>
+          <p class="excerpt">Aiming for the sweet spot between speed, consumption and charging infrastructure, Mayk Wienkötter, 
+            Porsche’s spokesperson for the Taycan and electromobility, took a trip from Stuttgart to Seville...</p>
+          <a href="https://newsroom.porsche.com/en/2024/products/porsche-taycan-long-distance-stuttgart-seville-35682.html" class="read-more">Read More</a>
+        </div>
+        <div class="news-preview">
+          <img src="4.jpg" alt="porshe car">
+          <h2>Porsche, Manthey EMA and Thomas Preining launch</h2>
+          <p class="meta-info">25/04/2024</p>
+          <p class="excerpt">Next weekend in Oschersleben, the DTM heads into its 40th season 
+            with 20 vehicles lining up on the grid. Porsche’s customer team Manthey EMA brings 
+            two 911 GT3 R cars to...</p>
+          <a href="https://newsroom.porsche.com/en/2024/motorsports/porsche-manthey-ema-dtm-season-preview-2024-35987.html" class="read-more">Read More</a>
+        </div>
+      </section>
+</body>
+</html>
