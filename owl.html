@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+</head>
+<body>
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+  <div class="owl-carousel">
+    <div class="item">
+      <h2>What is a repaint and reflow of the webpage?</h2>
+      <p>Repaint and reflow are two processes that occur when a webpage is rendered in a browser. 
+        Repaint refers to the process of updating the visual appearance of an element, such as changing 
+        its color or visibility. Reflow, on the other hand, is the process of recalculating the layout and positioning 
+        of elements on the page due to changes in their size, position, or content. Both repaint and reflow are resource-intensive 
+        operations and can negatively impact the performance of a webpage if they occur frequently.</p>
+    </div>
+    <div class="item">
+      <h2>How does JavaScript on the webpage affect page load speed and performance?</h2>
+      <p>JavaScript can impact page load speed and performance in several ways. If JavaScript files 
+        are large or not optimized, they can increase the page load time. Additionally, JavaScript 
+        code that is executed during the page load can delay the rendering of the page, making it appear 
+        slower to the user. Poorly written JavaScript code can also lead to inefficiencies, causing delays 
+        in processing and responsiveness. It's important to optimize JavaScript code, load it asynchronously
+        when possible, and minimize its impact on page load and performance.</p>
+    </div>
+    <div class="item">
+      <h2>What is "minification" of the script? Why is it useful to minify your scripts?</h2>
+      <p>Minification is the process of removing unnecessary characters from a script, such as whitespace, 
+        comments, and line breaks, without affecting its functionality. Minifying a script reduces its file size, 
+        making it quicker to download and parse by browsers. The smaller file size also helps reduce bandwidth usage 
+        and improves page load speed. Minification is useful because it can significantly reduce the size of JavaScript 
+        files without sacrificing their functionality, resulting in faster page load times and better overall performance.</p>
+    </div>
+
+    <div class="item">
+        <h2>What is a JS Web Worker and when do we need it?</h2>
+        <p>A JS Web Worker is a JavaScript feature that allows for concurrent execution of 
+        scripts in the background, separate from the main browser thread. Web Workers enable 
+        multitasking and help prevent JavaScript code from blocking the user interface, thus 
+        improving the responsiveness of web applications. They are particularly useful when performing 
+        computationally intensive tasks, such as complex calculations or data processing, without impacting 
+        the user experience. Web Workers are commonly used in applications that require real-time updates, 
+        heavy data manipulation, or long-running tasks.</p>
+      </div>
+    <div class="item">
+      <h2>Sources</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Reflow">Source 1</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Performance/JavaScript">Source 2</a></li>
+        <li><a href="https://www.imperva.com/learn/performance/minification/#:~:text=Minification%20is%20the%20process%20of,into%20a%20better%20user%20experience.">Source 3</a></li>
+        <li><a href="https://web.dev/learn/performance/web-worker-overview?hl=ru#:~:text=The%20feature%20that%20allows%20for,that%20make%20the%20page%20unresponsive.">Source 4</a></li>
+      </ul>
+    </div>
+  </div>
+  <script>
+    
+    $(document).ready(function(){
+      $(".owl-carousel").owlCarousel();
+    });
+  </script>
+  
+</body>
+</html>
